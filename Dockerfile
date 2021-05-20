@@ -19,8 +19,6 @@ RUN go build -o /app
 
 FROM alpine:3.13
 
-LABEL maintainer="Your Name <and@email.too> (@username)"
-
 # Install packages required by the image
 RUN apk add --update \
         bash \
