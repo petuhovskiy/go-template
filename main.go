@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/petuhovskiy/go-template/pkg/conf"
 	"net/http"
+
+	"github.com/petuhovskiy/go-template/pkg/conf"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
