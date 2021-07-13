@@ -32,7 +32,8 @@ go run main.go
 # now program should be running without errors, until Ctrl+C is pressed
 ```
 
-## To develop
+<details>
+<summary>Development</summary>
 
 Make sure you have:
 - Go 1.16, [install](https://golang.org/doc/install)
@@ -49,3 +50,4 @@ To use it:
 - Select EnvFile tab
 - Add file .env from repo root
   * On macOS press shirt+cmd+. to display hidden files
+</details>
